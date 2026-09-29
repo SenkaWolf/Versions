@@ -1,0 +1,77 @@
+# Change log
+
+Shown to everyone on the "Your account" page, newest first.
+
+When you release a new version: change the version in package.json, then rename
+"Unreleased" below to that version and today's date, e.g. "## 1.3.0 - 25/09/2026".
+Write each change as one line starting with "- ", in plain words for the people using the site.
+
+## Unreleased
+- Tooltips added to various parts of the site.
+- COSHH assessment 'Record status' no longer has a blank option.
+- 'Substance name', 'Activity / task' and 'Reference no.' must now be unique within each company.
+
+## 1.3.3 - 28/09/2026
+- Fix - When refreshing users page the company permissions disappear.
+- Fix - Password sign-in can no longer be switched off for a user with no work email, or while Sign in with Microsoft is not set up.
+- Fix - A long activity / task name no longer overlaps the logo at the top of the PDF.
+- Notes section added to COSHH and Risk assessments, for reference when working on them. Notes are not in the PDF or on the public page.
+
+## 1.3.2 - 27/09/2026
+- COSHH assessment Risks and Control Measures work the same as Risk assessments.
+- DSEAR tooltip added.
+- COSHH Inventory Company filter added.
+- Public version of COSHH Inventory added.
+- QR Codes added to printable PDFs.
+- Dev - Site settings (backup folder, port, etc.) now go in config.env, and are checked when the site starts.
+
+## 1.3.1 - 26/09/2026
+- Uploaded files keep their name, with a label and a unique id, so they're easy to find on the server.
+- Company dropdown gets locked after being saved.
+- COSHH and Risk assessments files are prefixed by company name and type.
+- Settings Page: Fix to prevent two admins making changes and one one admins change undoes due to conflict.
+- Signature pad added.
+- Microsoft Sign in added (needs IT to setup Microsoft Entra ID)
+
+## 1.3.0 - 26/09/2026
+- The audit log now logs more details.
+- Administrators can sign everyone out from the Users page.
+- Administrators can remove Orphan files.
+- View all reviews button added.
+- Support for multi companies and logos with user permissions to view.
+- Public pages have company filters.
+- Dev - The site now needs Node.js 24 or newer to run.
+- Dev - Checking a password no longer holds up the site for everyone else, so repeated sign-in attempts can't slow it down.
+- Dev - Open pages now check for changes every 30 seconds by downloading a short list, and only fetch the records someone has saved, instead of downloading every record each time.
+- Dev - The website and server code are split into smaller files for easier to find and change files.
+- Removed .html from page addresses.
+
+## 1.2.1 - 25/09/2026
+- The site now works on phones and tablets: the menu folds away behind a menu button, and pages fit the screen.
+- Nine more common hazards to pick from on risk assessments, including vibration, confined spaces, work-related driving, and work-related stress.
+- Fixed audit log which now records IP addresses correctly.
+- Added change log to account page.
+- New public records page. Add '/public' to end of website.
+- Back to top button added.
+
+## 1.2.0 - 24/09/2026
+- New COSHH Inventory page: the register of hazardous substances, filled in from the COSHH assessments, with its own PDF.
+- "Groups exposed" on each risk assessment hazard is now a set of buttons to tick, instead of free text.
+- Administrators have a new Backups page to make a backup straight away, download one, or restore from one.
+- The site's data is now backed up automatically once a day, and the last 14 backups are kept.
+- Settings, Users, Audit log and Backups are now grouped under one Admin menu.
+
+## 1.1.1 - 23/09/2026
+- The Home page shows which assessments are due for review in the next 30 days, and any that are overdue.
+- If two people edit the same record, the second save no longer overwrites the first. You're asked what to do instead.
+- Administrators have a new Audit log page to search sign-ins and changes, and export them for Excel.
+- Buttons now have icons, and the "New assessment" button is easier to find.
+- Vendor files now shipped with website files.
+
+## 1.1.0 - 23/09/2026
+- Everyone now has their own sign-in, as a viewer, editor or administrator.
+- New Risk Assessments tool, alongside COSHH Assessments.
+- Sign-ins and changes are recorded in an audit log.
+
+## 1.0.0 - 23/09/2026
+- First version: COSHH assessments with version history, safety data sheet attachments and PDF output.
