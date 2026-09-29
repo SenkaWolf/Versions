@@ -8,6 +8,10 @@ When releasing a new version:
 - Each change needs to be one line starting with "- "
 
 ## Unreleased
+- Equipment Inspections Due Date Tracker
+- Facilities Inspections Due Date Tracker
+
+## 1.3.4 - 29/09/2026
 - Tooltips added to various parts of the site.
 - COSHH assessment 'Record status' no longer has a blank option.
 - 'Substance name', 'Activity / task' and 'Reference no.' must now be unique within each company.
