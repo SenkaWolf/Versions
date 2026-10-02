@@ -2,15 +2,19 @@
 
 Shown to everyone on the "Your account" page, newest first.
 
-When releasing a new version:
-- Change the version in package.json
-- Rename "Unreleased" below to that version and date.
-- Each change needs to be one line starting with "- "
+## Roadmap
+
 
 ## Unreleased
-- Equipment Inspections Due Date Tracker
-- Facilities Inspections Due Date Tracker
 - Companies now have linked sites in settings which are used across assessments.
+- Access level per tool Added rather than a overall view, editor and admin role.
+- Roadmap added to change log.
+- Improved permission handling across pages (PAGE_TOOL).
+- Equipment Inspections Tracker Added
+- Facilities Inspections Tracker Added
+- Site can now be disabled
+- Dev - New download PDF function
+- Redesign of the Users page
 
 ## 1.3.4 - 29/09/2026
 - Tooltips added to various parts of the site.
