@@ -4,11 +4,14 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Roadmap
 - Approved contractors list
-- Contractor sign-in and sign-out register
 
 ## Unreleased
 - Email reminders for reviews due added. (needs IT to setup Microsoft Entra ID)
 - Printable QR poster generator added.
+- Sign-off for COSHH and Risk Assessments names now link to user accounts.
+- Contractor sign-in and sign-out register.
+- Fire Marshal roll call added.
+- Tidied up some duplicated code across features.
 
 ## 1.4.0 - 03/10/2026
 - Companies now have linked sites in settings which are used across assessments.
