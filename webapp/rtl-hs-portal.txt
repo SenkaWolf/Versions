@@ -4,8 +4,9 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Roadmap
 
-
 ## Unreleased
+
+## 1.4.0 - 03/10/2026
 - Companies now have linked sites in settings which are used across assessments.
 - Access level per tool Added rather than a overall view, editor and admin role.
 - Roadmap added to change log.
@@ -13,8 +14,13 @@ Shown to everyone on the "Your account" page, newest first.
 - Equipment Inspections Tracker Added
 - Facilities Inspections Tracker Added
 - Site can now be disabled
-- Dev - New download PDF function
 - Redesign of the Users page
+- Redesign of the settings page
+- Change Log modal pop-up added.
+- COSHH Inventory Table Improved
+- Dev - New download PDF function
+- Dev - Maintenance mode added
+- Fix - Public Records Page "Not saved" message fixed
 
 ## 1.3.4 - 29/09/2026
 - Tooltips added to various parts of the site.
