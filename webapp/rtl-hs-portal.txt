@@ -6,6 +6,8 @@ Shown to everyone on the "Your account" page, newest first.
 - Approved contractors list
 
 ## Unreleased
+- Signature pad added to Visitor sign-in.
+- Navbar reorganised again.
 
 ## 1.5.0 - 04/10/2026
 - Email reminders for reviews due added. (needs IT to setup Microsoft Entra ID)
