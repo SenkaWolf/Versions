@@ -6,8 +6,17 @@ Shown to everyone on the "Your account" page, newest first.
 - Approved contractors list
 
 ## Unreleased
+
+## 1.5.1 - 05/10/2026
 - Signature pad added to Visitor sign-in.
 - Navbar reorganised again.
+- 2FA Added. Admins require 2FA to be setup.
+- Audit log retention setting added
+- Dev - CSP script-src 'self' warning fixed.
+- Dev - Added security.txt.
+- Dev - pdf.js: turn off isEvalSupported (CVE-2024-4367 exploit).
+- Dev - Update jsPDF to 4.2.1 and jspdf-autotable to 5.0.8.
+- Dev - pdf.js only loads when a PDF is show rather than on every page load.
 
 ## 1.5.0 - 04/10/2026
 - Email reminders for reviews due added. (needs IT to setup Microsoft Entra ID)
