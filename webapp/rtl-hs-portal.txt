@@ -4,8 +4,20 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Roadmap
 - Approved contractors list
+- H&S Meeting Walk Around Checks
+- Pre Use Equipment Checks
+- Contractor Handbook / Site Introduction
 
 ## Unreleased
+
+## 1.5.2 - 06/10/2026
+- Base text set to 16px so "i" doesn't look like "I" on 125% screens.
+- Trackers Header Redesigned.
+- Added Site access per user (None / View / Edit).
+- Added approx. expected duration on site for visitors.
+- Added View all reviews pop-up now has filters.
+- Fix - Public COSHH Inventory back button no longer goes full width of the page.
+- Dev - User ID's are no longer random characters and use the username picked during account creation.
 
 ## 1.5.1 - 05/10/2026
 - Signature pad added to Visitor sign-in.
