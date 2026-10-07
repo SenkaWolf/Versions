@@ -9,6 +9,7 @@ Shown to everyone on the "Your account" page, newest first.
 - Contractor Handbook / Site Introduction
 
 ## Unreleased
+- Fix Editing user permissions (bug from User ID change).
 
 ## 1.5.2 - 06/10/2026
 - Base text set to 16px so "i" doesn't look like "I" on 125% screens.
