@@ -9,6 +9,8 @@ Shown to everyone on the "Your account" page, newest first.
 - Contractor Handbook / Site Introduction
 
 ## Unreleased
+
+## 1.5.3 - 07/10/2026
 - Fix Editing user permissions (bug from User ID change).
 
 ## 1.5.2 - 06/10/2026
