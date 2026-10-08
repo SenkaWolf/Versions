@@ -10,6 +10,13 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 
+## 1.5.4 - 08/10/2026
+- Health & Safety Committee Meeting feature added.
+- Permissions Redesigned to be easier to follow.
+- QR Posters moved to dedicated page.
+- Security Fixes - Audit log CSV export allowed =HYPERLINK(...) and Committee photo uploads tightened.
+- Dev - Bootstrap updated to v5.3.8 & fflate to 0.8.3. 
+
 ## 1.5.3 - 07/10/2026
 - Fix Editing user permissions (bug from User ID change).
 
