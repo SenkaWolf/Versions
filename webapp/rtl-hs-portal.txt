@@ -10,6 +10,12 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 
+## 1.5.5 - 09/10/2026
+- More poster options added.
+- Added Agenda and Attendance to H&S Committee.
+- Bug - Committee Checked by field now only shows committee members.
+- Dev - Added view as feature.
+
 ## 1.5.4 - 08/10/2026
 - Health & Safety Committee Meeting feature added.
 - Permissions Redesigned to be easier to follow.
