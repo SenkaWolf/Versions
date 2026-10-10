@@ -4,11 +4,20 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Roadmap
 - Approved contractors list
-- H&S Meeting Walk Around Checks
 - Pre Use Equipment Checks
-- Contractor Handbook / Site Introduction
 
 ## Unreleased
+
+## 1.5.6 - 10/10/2026
+- One-off messages across the site are now Bootstrap toasts.
+- Phone number validation added to visitor sign-in.
+- Form controls design changed.
+- Added .is-invalid / .is-valid to input fields.
+- Added site introduction to visitor sign in.
+- CSS changes.
+- Navbar user area redesigned.
+- User task list page added.
+- Added offcanvas to records column on COSHH, Risk assessments and trackers.
 
 ## 1.5.5 - 09/10/2026
 - More poster options added.
