@@ -8,6 +8,18 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 
+## 1.5.7 - 11/10/2026
+- Added More tooltips.
+- More search options added to COSHH and Risk Assessments.
+- Added not signed off status on COSHH and Risk Assessments.
+- Added help page.
+- Added dark/light mode setting.
+- Dev - Pages load libraries only when needed.
+- Dev - Pages HTML moved into its page module.
+- Dev - CleanURLs - Removed # from pages URL.
+- Dev - json data files now indented.
+- Fix - Clicking "Generate PDF" logs a Bootstrap error (Cannot read properties of null (reading 'classList')).
+
 ## 1.5.6 - 10/10/2026
 - One-off messages across the site are now Bootstrap toasts.
 - Phone number validation added to visitor sign-in.
@@ -16,11 +28,11 @@ Shown to everyone on the "Your account" page, newest first.
 - Added site introduction to visitor sign in.
 - CSS changes.
 - Navbar user area redesigned.
-- User task list page added.
+- Added User task list page.
 - Added offcanvas to records column on COSHH, Risk assessments and trackers.
 
 ## 1.5.5 - 09/10/2026
-- More poster options added.
+- Added more poster options.
 - Added Agenda and Attendance to H&S Committee.
 - Bug - Committee Checked by field now only shows committee members.
 - Dev - Added view as feature.
