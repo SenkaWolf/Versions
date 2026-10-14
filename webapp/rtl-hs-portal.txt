@@ -8,6 +8,16 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 
+## 1.5.8 - 14/10/2026
+- Added name and username editing.
+- Added Induction Packs.
+- H&S Committee actions now need comments to close.
+- H&S Committee walk around now clears from "My Tasks" after being filled in rather than meeting being closed.
+- H&S Committee Actions list text now wraps.
+- H&S Committee Actions can be assigned to people with no account.
+- Added feature to delete backups but require 2FA code to confirm.
+- Dev - Font Awesome updated to 7.3.1
+
 ## 1.5.7 - 11/10/2026
 - Added More tooltips.
 - More search options added to COSHH and Risk Assessments.
