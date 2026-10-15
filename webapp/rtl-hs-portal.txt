@@ -8,6 +8,12 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 
+## 1.5.9 - 15/10/2026
+- Added "My Tasks" where column now wraps long text.
+- Trackers search tools are now on sidebar like assessments pages.
+- Added status field to trackers so records can be made "N/A".
+- Added filters/search to My Tasks page.
+
 ## 1.5.8 - 14/10/2026
 - Added name and username editing.
 - Added Induction Packs.
