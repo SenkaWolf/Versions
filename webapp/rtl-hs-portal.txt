@@ -8,6 +8,12 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 
+## 1.6.0 - 16/10/2026
+- Audit log now wraps when details column gets too long.
+- Tracker pages serial number column now wraps text.
+- Tracker table now scrolls like the COSHH Inventory.
+- Added Archive feature to records, sites and companies.
+
 ## 1.5.9 - 15/10/2026
 - On "My Tasks" page the "where" column now wraps long text.
 - Trackers search tools are now on sidebar like assessments pages.
