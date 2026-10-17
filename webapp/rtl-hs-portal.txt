@@ -7,6 +7,8 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+- Dev - Code tidy up.
+- Change log gets it's own dedicate page.
 
 ## 1.6.0 - 16/10/2026
 - Audit log now wraps when details column gets too long.
