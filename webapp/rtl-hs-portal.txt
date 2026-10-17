@@ -7,6 +7,8 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+
+## 1.6.1 - 17/10/2026
 - Change log gets it's own dedicate page.
 - Visitor Register now defaults to only showing past 7 days of records.
 - Reviews Due list limited to 10 lines.
@@ -14,10 +16,12 @@ Shown to everyone on the "Your account" page, newest first.
 - All click-twice button confirms have been changed to modals.
 - Editor action bar buttons have been combined into "more" button.
 - Editor action buttons now wrap as one group.
+- Page max-width changed from 1400px to 1600px.
 - Added returning visitors information is now remembered on device if option ticked.
 - Added H&S Committee Walk Around checks auto save as you type.
 - Added H&S Committee Walk Around - You're checking notice with link to scroll to section.
 - Added H&S Committee Agenda copies from previous meeting.
+- Added Dashboard.
 - Dev - Code tidy up.
 - Bug - Failed deletes looks like it worked fixed.
 - Bug - Visitor card "on site now" count not updating. Now refreshed every 30 seconds.
