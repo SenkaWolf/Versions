@@ -7,6 +7,10 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+- Added Dashboard company filter.
+- API responses are now compressed (roughly 45% reduction in sent file sizes but CPU utilisation increased).
+- Record files are now cached (loading times roughly twice as fast and reduces CPU utilisation after first request).
+- Lists are only redraw when something changes.
 
 ## 1.6.1 - 17/10/2026
 - Change log gets it's own dedicate page.
