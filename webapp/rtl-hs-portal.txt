@@ -7,7 +7,14 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+
+## 1.6.2 - 18/10/2026
 - Added Dashboard company filter.
+- Added Compliance % headline row to dashboard.
+- Added How well actions get closed to dashboard.
+- Added Fire Roll Calls to dashboard.
+- Added Trend charts for "overdue today" numbers to dashboard.
+- Added High Risk profiles to dashboard.
 - API responses are now compressed (roughly 45% reduction in sent file sizes but CPU utilisation increased).
 - Record files are now cached (loading times roughly twice as fast and reduces CPU utilisation after first request).
 - Lists are only redraw when something changes.
