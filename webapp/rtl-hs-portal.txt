@@ -7,6 +7,7 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+- Dev - jspdf-autotable updated from 5.0.8 to 5.0.9.
 
 ## 1.6.2 - 18/10/2026
 - Added Dashboard company filter.
