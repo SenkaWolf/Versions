@@ -8,6 +8,10 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 - Dev - jspdf-autotable updated from 5.0.8 to 5.0.9.
+- Fix - Unescaped due date in reminder emails.
+- Fix - 2FA lockout reset. 2FA lockout now only resets after a successful 2FA code rather than correct password.
+- Fix - 20 MB RAMS upload read before the token check.
+- Fix - Visitor records leaking after a rename. Renaming a company or site in Settings now updates visits and roll calls as well as tool records.
 
 ## 1.6.2 - 18/10/2026
 - Added Dashboard company filter.
