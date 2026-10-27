@@ -7,7 +7,10 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+
+## 1.6.3 - 27/10/2026
 - Dev - jspdf-autotable updated from 5.0.8 to 5.0.9.
+- Dev - Added a Maintenance page to check dependency versions.
 - Fix - Unescaped due date in reminder emails.
 - Fix - 2FA lockout reset. 2FA lockout now only resets after a successful 2FA code rather than correct password.
 - Fix - 20 MB RAMS upload read before the token check.
