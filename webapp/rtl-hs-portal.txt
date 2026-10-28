@@ -8,6 +8,13 @@ Shown to everyone on the "Your account" page, newest first.
 
 ## Unreleased
 
+## 1.6.4 - 27/10/2026
+- Added Admins can edit Committee Actions Done date.
+- Added the ability to unlink files which have been linked to Inspection records on the tracker pages.
+- The site field now locks after being saved like the company field on all record types.
+- Committee Actions text now wraps.
+
+
 ## 1.6.3 - 27/10/2026
 - Dev - jspdf-autotable updated from 5.0.8 to 5.0.9.
 - Dev - Added a Maintenance page to check dependency versions.
