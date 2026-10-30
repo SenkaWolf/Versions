@@ -7,6 +7,16 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+- Visitor sign-in now has a site-wide hourly limit as well as the per-connection one, and the signature file size cap reduced.
+- Login requests are now limited to 16 KB, and usernames and Microsoft error text are cut to 100 characters before they go in the audit log.
+- Repeated blocked sign-ins from the same connection are now logged once with a count of attempts, instead of one audit line per attempt.
+- Records can now only link files the person saving can already open, so another company's file can't be attached by its id.
+- Wrong passwords when turning off two-factor or changing the password now count towards the sign-in lockout and are recorded in the audit log.
+- Signing visitors out and running fire roll calls now need Edit access at that site, the same as records, and the buttons are hidden for View only sites.
+- Renaming a company or site in Settings now also renames it in the dashboard snapshots, so trend charts keep their history.
+- Committee rooms now only accept photos the person uploaded or can already see, so another site's photo can't be attached by its id.
+- Committee photos are now named after the meeting date, site, area and room they are added to, instead of the phone's file name.
+- Fix - COSHH and risk assessment names now only have to be unique at each site rather than across the whole company.
 
 ## 1.6.4 - 27/10/2026
 - Added Admins can edit Committee Actions Done date.
