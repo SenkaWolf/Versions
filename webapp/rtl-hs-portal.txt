@@ -16,7 +16,18 @@ Shown to everyone on the "Your account" page, newest first.
 - Renaming a company or site in Settings now also renames it in the dashboard snapshots, so trend charts keep their history.
 - Committee rooms now only accept photos the person uploaded or can already see, so another site's photo can't be attached by its id.
 - Committee photos are now named after the meeting date, site, area and room they are added to, instead of the phone's file name.
+- A failed save of the sign-ins file is now logged instead of crashing the whole server, and half-written temp files are removed.
+- Records with lists or names in the wrong format are now refused when saved, so one bad record can't break reminders, My Tasks, the public page, dashboard snapshots or file clean-up for everyone.
+- Changing your password and turning off two-factor now share sign-in's limit on password checks running at once, so one account can't slow the site down for everyone.
+- Microsoft sign-ins in progress are now capped and old ones are cleared without checking every entry, so repeated visits to the sign-in link can't use up memory or slow it down.
+- Only admins can now set the done date when adding a committee action, matching the check that already applies when editing one.
+- Microsoft sign-in now requires MS_TENANT_ID to be the tenant ID and always checks sign-ins come from that directory, so accounts from other organisations can't be linked.
+- setup-libraries.js now checks downloads against the fingerprints in VERSIONS.txt and only follows redirects on the same website, and the Docker build uses the committed libraries instead of downloading them again.
+- TRUST_PROXY can now be set to the proxy's IP address so only that machine's X-Forwarded-For is believed, and TRUST_PROXY=1 shows a warning that it lets anyone get around the sign-in limits.
+- The server now closes connections that stay silent for 2 minutes and max connections set so idle connections can't use up its file handles and break saving.
 - Fix - COSHH and risk assessment names now only have to be unique at each site rather than across the whole company.
+- Dev - Tidied up variable names and removed comments that only repeated the code.
+- Dev - Updated to Node.js 26, the current LTS as of 28 October 2026.
 
 ## 1.6.4 - 27/10/2026
 - Added Admins can edit Committee Actions Done date.
