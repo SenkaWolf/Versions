@@ -7,6 +7,8 @@ Shown to everyone on the "Your account" page, newest first.
 - Pre Use Equipment Checks
 
 ## Unreleased
+
+## 1.7.0 - 31/10/2026
 - Visitor sign-in now has a site-wide hourly limit as well as the per-connection one, and the signature file size cap reduced.
 - Login requests are now limited to 16 KB, and usernames and Microsoft error text are cut to 100 characters before they go in the audit log.
 - Repeated blocked sign-ins from the same connection are now logged once with a count of attempts, instead of one audit line per attempt.
